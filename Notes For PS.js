@@ -16,7 +16,7 @@ for (var i = 0; i < x.length; i++) {
 m[1] = 50 // Wrong
 
 
-parseInt("100") = int x = 100
+parseInt("100") === int x = 100 === +"100" 
 
 
 
