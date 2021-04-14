@@ -55,3 +55,14 @@ a.reduce((acc, el) => {
     pre.push(acc + el);
     return acc + el;
 }, 0);
+
+
+
+How To make vector<pair<int,int>> ?
+
+while (input.length != 0) {
+    let [x,y] = input.shift().split(" ").map(el => +el);
+    a.push({x, y});
+}
+
+a.sort((a, b) => a.x - b.x);  // if you want to sort the array
