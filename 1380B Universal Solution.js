@@ -1,13 +1,3 @@
-// JavaScript execites the code sequentially so we need to run taskOne() then taskTwo() then taskThree()
-
-const { ENGINE_METHOD_ALL } = require("constants");
-
-/*taskOne(); // Assume That This function send request that may takes some time
-
-taskTwo(); // task two must run after task one
-
-taskThree();*/
-
 const readline = require("readline").createInterface({
   input: process.stdin,
   output: process.stdout,
