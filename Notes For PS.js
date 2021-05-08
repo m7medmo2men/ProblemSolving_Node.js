@@ -47,6 +47,12 @@ for (var i in result) {
 	console.log(result[i]);
 }
 
+for (var [key, value] of result) {
+      if (value > mx) {
+        mx = value;
+        mxChar = key;
+      }
+    }
 
 
 
