@@ -28,6 +28,14 @@ for (var i = 0; i < arr.length; i++) {
   counts[num] = counts[num] ? counts[num] + 1 : 1;
 }
 
+Object.keys(count).forEach((el) => {
+   if (count[el] > mx) {
+      mx = count[el];
+      mxChar = el;
+   }
+});
+
+
 result = { };
 for(var i = 0; i < a.length; ++i) {
     if(!result[a[i]])
@@ -38,6 +46,7 @@ for(var i = 0; i < a.length; ++i) {
 for (var i in result) {
 	console.log(result[i]);
 }
+
 
 
 
