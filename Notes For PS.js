@@ -81,3 +81,9 @@ while (input.length != 0) {
 }
 
 a.sort((a, b) => a.first - b.first);  // if you want to sort the array
+
+
+Splitting a String without removing the delimeter character
+var string = "abcdeabcde";
+var newstringreplaced = string.replace(/d/gi, ",d");
+var newstring = newstringreplaced.split(",");
